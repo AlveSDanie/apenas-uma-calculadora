@@ -1,0 +1,59 @@
+body {
+    background: #494444;
+    font: normal 17pt Arial;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+#frame {
+    background: #000000; /*rgba(0, 0, 0, 0.562)*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #0000009d;
+    width: 335px;
+    height: 490px;
+    margin: auto;
+    padding: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#output {
+    background-color: #111111;
+    color: #FFFFFF;
+    width: 328px;
+    height: 120px;
+    margin: auto;
+    text-align: right;
+    font-size: 35pt;
+}
+
+table {
+    margin: auto;
+}
+
+.bt {
+    background: #999999;
+    font-size: 27pt;
+    border-radius: 5px;
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+}
+.bt:hover {
+    background: #AAAAAA;
+}
+
+.obt {
+    background: #ff9100;
+    border-radius: 5px;
+    font-size: 27pt;
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+}
+.obt:hover {
+    background: #d6850c;
+}

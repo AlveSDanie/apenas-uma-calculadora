@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="frame">
+        <div id="output"></div>
+        <table>
+            <tr>
+                <td><button class="bt" onclick="cleaR()">C</button></td>
+                <td><button class="bt" onclick="remove()">Del</button></td>
+                <td><button class="bt" onclick="insertOp('%')">%</button></td>
+                <td><button class="obt" onclick="insertOp(':')">:</button></td>
+            </tr>
+            <tr>
+                <td><button class="bt" onclick="insertNumber('7')">7</button></td>
+                <td><button class="bt" id="bt" onclick="insertNumber('8')">8</button></td>
+                <td><button class="bt" onclick="insertNumber('9')">9</button></td>
+                <td><button class="obt" onclick="insertOp('x')">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="bt" onclick="insertNumber('4')">4</button></td>
+                <td><button class="bt" onclick="insertNumber('5')">5</button></td>
+                <td><button class="bt" onclick="insertNumber('6')">6</button></td>
+                <td><button class="obt" onclick="insertOp('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="bt" onclick="insertNumber('1')">1</button></td>
+                <td><button class="bt" onclick="insertNumber('2')">2</button></td>
+                <td><button class="bt" onclick="insertNumber('3')">3</button></td>
+                <td><button class="obt" onclick="insertOp('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="bt" style="width:165px" onclick="insertNumber('0')">0</button></td>
+                <td><button class="bt" onclick="insertOp('.')">.</button></td>
+                <td><button class="obt" onclick="res()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
