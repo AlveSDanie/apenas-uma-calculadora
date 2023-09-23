@@ -22,7 +22,7 @@ function insertOp(item) {
     }
 }
 
-//função que remove um caracter da tela, seja ele um number ou um operador
+//função que remove um caracter da tela, seja ele um número ou um operador
 function remove() {
     let expression = window.document.getElementById("output").innerHTML;
     window.document.getElementById("output").innerHTML = expression.substring(0, expression.length - 1);
